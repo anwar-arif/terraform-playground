@@ -1,8 +1,8 @@
 #!/bin/bash
 export DEBIAN_FRONTEND=noninteractive
 
-apt-get update
-apt-get install -y --no-install-recommends \
+apt update
+apt install -y --no-install-recommends \
     apt-utils \
     software-properties-common \
     curl \
